@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d95935b8-dd37-46fc-865e-f0dd53b7f03d" name="Default Changelist" comment="" />
+    <list default="true" id="d95935b8-dd37-46fc-865e-f0dd53b7f03d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/StringReverser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringReverserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +20,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Sknoy6nvg6qGvXdcsWscT9fZuI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -46,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NegativeNumberValidatorTest">
+  <component name="RunManager" selected="JUnit.StringReverserTest">
     <configuration name="NegativeNumberValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mountains" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,20 +85,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveNumberValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringReverserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mountains" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PositiveNumberValidatorTest" />
+      <option name="MAIN_CLASS_NAME" value="StringReverserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveNumberValidatorTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringReverserTest.reverse_emptyString_emptyStringReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mountains" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PositiveNumberValidatorTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="StringReverserTest" />
+      <option name="METHOD_NAME" value="reverse_emptyString_emptyStringReturned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringReverserTest" />
+        <item itemvalue="JUnit.StringReverserTest.reverse_emptyString_emptyStringReturned" />
         <item itemvalue="JUnit.NegativeNumberValidatorTest" />
         <item itemvalue="JUnit.NegativeNumberValidatorTest.test2" />
         <item itemvalue="JUnit.NegativeNumberValidatorTest.test1" />
-        <item itemvalue="JUnit.PositiveNumberValidatorTest" />
-        <item itemvalue="JUnit.PositiveNumberValidatorTest.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -117,5 +126,18 @@
       <updated>1572116639448</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
