@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d95935b8-dd37-46fc-865e-f0dd53b7f03d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StringReverser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringReverserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringDuplicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringDuplicatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringReverserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringReverserTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,22 +56,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringReverserTest">
+  <component name="RunManager" selected="JUnit.StringDuplicatorTest">
     <configuration name="NegativeNumberValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mountains" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NegativeNumberValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NegativeNumberValidatorTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mountains" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NegativeNumberValidatorTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,6 +72,15 @@
       <option name="MAIN_CLASS_NAME" value="NegativeNumberValidatorTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDuplicatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mountains" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringDuplicatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringDuplicatorTest" />
         <item itemvalue="JUnit.StringReverserTest" />
         <item itemvalue="JUnit.StringReverserTest.reverse_emptyString_emptyStringReturned" />
         <item itemvalue="JUnit.NegativeNumberValidatorTest" />
         <item itemvalue="JUnit.NegativeNumberValidatorTest.test2" />
-        <item itemvalue="JUnit.NegativeNumberValidatorTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -139,5 +139,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mountains$StringDuplicatorTest.ic" NAME="StringDuplicatorTest Coverage Results" MODIFIED="1572215530731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -27,8 +27,8 @@ public class StringReverserTest {
     }
 
     @Test
-    public void reverse_longString_reversedStringReturned() throws Exception{
+    public void reverse_longString_reversedStringReturned() throws Exception {
         String result = SUT.reverse("Darnell");
-        assertThat(result,is("llenraD"));
+        assertThat(result, is("llenraD"));
     }
 }
